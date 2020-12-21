@@ -1,0 +1,7 @@
+{
+  "name": "projS3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
