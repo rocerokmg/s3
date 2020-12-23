@@ -7,22 +7,56 @@
   </ion-toolbar>
 </ion-header>
 <ion-content class="ion-padding "> 
-      <div class="card border">    
-        <div class="card-block ">
+    <div class="card border">    
+      <div class="card-block ">
           <ion-grid>
             <ion-row>
               <ion-col size="4">     
-                <ion-input type="number" class="form-control border border-secondary text-center">                            
+                <ion-input type="number" class="form-control border border-secondary text-lg text-center">                            
                 </ion-input>    
               </ion-col>
               <ion-col size="4">      
-                <ion-input type="number" class="form-control border border-secondary text-center"></ion-input>
+                <ion-input type="number" class="form-control border border-secondary text-lg text-center"></ion-input>
               </ion-col>
               <ion-col size="4">       
-                <ion-input type="number" class="form-control border border-secondary text-center"></ion-input>
+                <ion-input type="number" class="form-control border border-secondary text-lg text-center"></ion-input>
               </ion-col>
           </ion-row>
           </ion-grid>
-        </div>
-      </div>   
+      </div>
+    </div>   
+    <div class="card border" style="margin-top: 15px;">    
+      <div class="card-block bg-secondary sm">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="4">     
+                <ion-input type="number" placeholder="STRAIGHT" style="font-size:15px;"  class="form-control border border-secondary text-center">                            
+                </ion-input>    
+              </ion-col>
+              <ion-col size="4">      
+                <ion-input type="number" placeholder="RUMBLE"  style="font-size:15px;" class="form-control border border-secondary text-center"></ion-input>
+              </ion-col>
+              <ion-col size="4">       
+                <ion-button color="dark">ADD BET</ion-button>
+              </ion-col>
+          </ion-row>
+          </ion-grid>
+      </div>
+    </div>   
+    
+    <ion-content class="ion-margin">
+      <ion-grid class="ion-margin">
+        <ion-row>
+          <ion-col>COMBINATION</ion-col>
+          <ion-col>Straight</ion-col>
+          <ion-col>Rumble</ion-col>        
+        </ion-row>
+      </ion-grid>   
+       <ion-button color="dark" class="form-control" >PLACE BET</ion-button>
+     
+    </ion-content>
+
+  
+          
+      
 </ion-content>
