@@ -8,6 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { SmsRetriever } from '@ionic-native/sms-retriever/ngx';
 
 
 @NgModule({
@@ -17,11 +18,12 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule
-   
+  
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    SmsRetriever,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

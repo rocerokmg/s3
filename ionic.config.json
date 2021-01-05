@@ -1,7 +1,8 @@
 {
-  "name": "projS3",
+  "name": "Play Sample",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

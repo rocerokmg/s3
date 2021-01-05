@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
 import { PlayPageRoutingModule } from './play-routing.module';
-
 import { PlayPage } from './play.page';
+import { SMS } from '@ionic-native/sms/ngx'
 
 @NgModule({
   imports: [
@@ -15,6 +13,8 @@ import { PlayPage } from './play.page';
     IonicModule,
     PlayPageRoutingModule
   ],
+  providers:[SMS],
   declarations: [PlayPage]
+  
 })
 export class PlayPageModule {}
